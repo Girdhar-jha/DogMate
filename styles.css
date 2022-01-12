@@ -147,8 +147,9 @@ press section */
 text-align:center;
   }
   .q{
+      position: static;
     text-align: center;
-    position: static;
+  
     transform:rotate(0);
   }
 }
