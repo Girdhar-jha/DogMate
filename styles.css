@@ -19,7 +19,6 @@
 {
   padding:5% 15%;
   padding-bottom: 0;
-  height:590px;
 }
 .z
 {
@@ -29,12 +28,11 @@
 }
 .q{
   transform:rotate(8deg);
-  width:80%;
-  height:400px;
-  margin-left:100px;
-  position:relative;
-  top:30px;
-  left:20px;
+  width:30%;
+  height:420px;
+  position:absolute;
+right:153px;
+bottom:20px;
   z-axis:0.1;
 }
 .nav{
@@ -141,18 +139,7 @@ press section */
   color:black;
   font-size: 20px;
 }
-@media (max-width:1028px) {
-  #title
-  {
-text-align:center;
-  }
-  .q{
-      position: static;
-    text-align: center;
-  
-    transform:rotate(0);
-  }
-}
+
 #cta{
   background-color: #ef8172;
   color:#fff;
@@ -197,4 +184,15 @@ body{
 }
 .co{
 margin-left:10px;
+}
+@media (max-width:1000px) {
+  #title
+  {
+text-align:center;
+  }
+  .q{
+    position:static;
+    transform:rotate(0);
+    width:60%;
+  }
 }
