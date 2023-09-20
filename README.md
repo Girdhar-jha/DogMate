@@ -1,1 +1,1 @@
-# tindog-project
+# DogMate
